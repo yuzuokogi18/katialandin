@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 50px; 
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.product-image {
+  width: 80%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+}
+
+.price {
+  font-size: 24px;
+  color: #908b8b;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.text{
+  text-align: center;
+  font-size: 24px; 
+ 
+}
+.button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 10px;
+  background-color: #ba6c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #735600;
+}

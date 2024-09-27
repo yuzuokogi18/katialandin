@@ -1,0 +1,132 @@
+.main-container {
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  .filter-container {
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-container h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .filter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .filter-item p {
+    margin: 0;
+  }
+  
+  .filter-item span {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .filter-item:hover {
+    color: #c14117;
+  }
+  
+  hr {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .dropdown-content {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content label {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .dropdown-content input {
+    margin-right: 8px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px; 
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: calc(20% - 40px);
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+  }
+  .card:hover {
+    transform: translateY(-2px); 
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px; 
+  }
+  
+  .card button {
+    background-color: #c14117; 
+    color: white; 
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .card button:hover {
+    background-color: #a03013;
+  }
+  .pagination-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+  }
+  
+  .pagination {
+    display: flex;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px; 
+  }
+  
+  .pagination span {
+    margin: 0 10px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+  }
+  
+  .pagination span:hover {
+    background-color: #c14117; 
+    color: white; 
+    border-radius: 3px; 
+  }
+  

@@ -1,0 +1,12 @@
+<div class="container">
+  <div *ngFor="let card of cards" class="card">
+    <img [src]="card.image" alt="Product Image" class="product-image" />
+    <div class="card-content">
+      <h2>{{ card.title }}</h2>
+      <p class="price">${{ card.price }}.00</p>
+    </div>
+  </div>
+</div>
+<div class="button-container">
+  <button onclick="location.href=''">Ver Más</button>
+</div>
